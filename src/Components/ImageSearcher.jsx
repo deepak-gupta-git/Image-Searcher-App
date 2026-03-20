@@ -32,18 +32,14 @@ const Image = () => {
         />
         <button onClick={searchImages}>Search</button>
       </div>
-
       <div className="image-list">
-  {images.length === 0 ? (
-    // <p>Search for beautiful images ✨</p>
-  ) : (
-    images.map((img) => (
-      <div key={img.id} className="image-card">
-        <img src={img.urls.small} alt="img" />
+        {images.map((img) => (
+          <div key={img.id} className="image-card">
+            <img src={img.urls.small} alt="img" />
+          </div>
+        ))}
       </div>
-    ))
-  )}
-</div>
+    </div>
           
     </div>
     </div>
