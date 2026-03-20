@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from 'react';
-import "../Components/ImageSearcher.css"
+import "../Components/ImageSearcher.css";
 
 
 const Image = () => {
