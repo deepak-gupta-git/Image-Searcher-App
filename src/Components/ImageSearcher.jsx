@@ -35,7 +35,7 @@ const Image = () => {
 
       <div className="image-list">
   {images.length === 0 ? (
-    <p>Search for beautiful images ✨</p>
+    // <p>Search for beautiful images ✨</p>
   ) : (
     images.map((img) => (
       <div key={img.id} className="image-card">
